@@ -222,7 +222,7 @@ img{
     font-family: 'Roboto',sans-serif;
     font-weight: bold;
     font-size: 1.875em; /*30px*/
-    /*border-right: solid 1px #fff*/
+    /*border-right>solid 1px #fff*/
 }
 
 .jogos-aovivo::after{
@@ -247,8 +247,8 @@ img{
 
 .time1,.time2{
     display: flex;
+    
 }
-
 
 @media screen and (max-width: 74.93em){
 
