@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 :root{
     --background: #000000;
     --red:  #c20000;
@@ -43,6 +43,7 @@ img{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    color:#fff
 }
 .topo img{
     max-width: 21.18em;
@@ -183,6 +184,72 @@ img{
 .about-position img{
     max-width: 31.87em;
 }
+
+.jogos-aovivo{
+    font-family: 'Roboto' , sans-serif;
+    font-weight: bold;
+    font-size: 1.875;
+
+}
+
+.partida{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.partida img{
+    max-width: 3.375em;
+}
+
+.time1, .time2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 400;
+}
+
+.time1 img{
+    margin-left: 0.5em;
+
+}
+
+.time2 {
+    margin-right: 0.5em;
+}
+
+.jogos-aovivo, .jogos-embreve{
+    font-family: 'Roboto',sans-serif;
+    font-weight: bold;
+    font-size: 1.875em; /*30px*/
+    /*border-right: solid 1px #fff*/
+}
+
+.jogos-aovivo::after{
+    content: '';
+    height: 2.666em;
+    border:solid 1px #fff;
+    margin: 0 1em;
+}
+
+.partida{
+    width: 9.5em;
+    /*background-color: red; */
+  /*  display: flex;*/
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 1em;   
+}
+
+.partida img{
+     max-width: 1.8em; /*54px*/
+}
+
+.time1,.time2{
+    display: flex;*/
+}
+
+
 @media screen and (max-width: 74.93em){
 
 }
