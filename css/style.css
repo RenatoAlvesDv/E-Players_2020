@@ -235,7 +235,7 @@ img{
 .partida{
     width: 9.5em;
     /*background-color: red; */
-  /*  display: flex;*/
+    display: flex;
     justify-content: space-around;
     align-items: center;
     margin-left: 1em;   
@@ -246,7 +246,7 @@ img{
 }
 
 .time1,.time2{
-    display: flex;*/
+    display: flex;
 }
 
 
