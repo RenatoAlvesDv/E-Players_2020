@@ -206,7 +206,7 @@ img{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-weight: 400;
+    font-weight: 400px;
 }
 
 .time1 img{
@@ -249,6 +249,249 @@ img{
     display: flex;
 }
 
+.s_noticia{
+    width: 100%;
+    height: 880px;
+    background-color: #1b1b1b;
+}
+.secao_noticia h2{
+    color: #fff;
+    font-size: 35px;
+    font-family: 'Roboto',sans-serif;
+    text-align: left;
+    margin-left: 680px;
+    margin-top: 12px;
+    
+}
+
+.wrap{
+    flex-wrap: wrap  
+    
+}
+
+.container{
+    max-width: 900px;
+    margin:0 661px ;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 10px;
+
+    
+   
+}
+
+.noticias{
+    background:var(--gradient);
+    box-shadow: 1px 1px 20px 4px #000000;
+    width: 239px;
+    height: 364px;
+    margin: 15px;
+    flex: 0;
+    
+    
+
+}
+
+.noticias img{
+    width: 237px;
+    height: 159px;
+}
+
+.noticias h2{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin-left: 15px ;
+    margin-top: 1px;
+}
+
+.noticias p{
+    color: #fff;
+    text-align: left;
+    font-size: 16px;
+    margin: 14px;
+
+}
+
+.prox{
+    width: 237px;
+    height: 751px;
+    padding-right: 20px;
+    margin-right: 680px;
+    float: right;
+    background: var(--gradient);
+    display: flex;
+    box-shadow: 1px 1px 20px 4px #000000;
+    margin-top: 21px;
+}
+
+.partida1{
+    width: 7.5em;
+    /*background-color: red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 1em;   
+    margin-top: 30px;
+
+}
+
+.Primeiro_confronto img{
+    width: 40px;
+    height: 40px;
+}
+
+.proximas_partidas{
+    font-weight: bold;
+    font-size: 20px;
+    color:#fff;
+    margin-right: 15px;
+   /* background-color: #fff;*/
+    margin-top: 25px;
+    
+}
+
+.proximas_partidas h3{
+    font-size: 18px;
+}
+
+
+
+
+.time11, .time22{
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+
+.time11 img{
+    margin-left: 5px;
+    width: 40px;
+
+}
+
+.time22 img{
+    margin-right: 5px;
+    width: 40px;
+
+}
+
+.time22 {
+    margin-right: 0.5em;
+}
+
+.time11 p{
+    margin-left: -50px;
+    
+}
+
+.time22 p{
+    margin-right: -50px;
+}
+
+.proximas_partidas h3{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.rodape{
+    width: 100%;
+    height: 250px;
+    background-color:var (var(--background));
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+}
+
+.linkuteis{
+    margin-left: 680px;
+    margin-top: 60px;
+    color: #fff;
+    float: left;
+    
+}
+.linkuteis a{
+    text-decoration: none; 
+    color: #fff;
+    font-weight: lighter;
+}
+    
+
+.paginarp{
+    margin-left: 60px;
+    margin-top: 60px;
+    color: #fff;
+    float: left;
+    
+}
+.paginarp a{
+    text-decoration: none; 
+    color: #fff;
+    font-weight: lighter;
+}
+.bcadastre_se{
+    width: 500px;
+    text-align: right;
+  /*  background-color: chartreuse; */
+    flex-direction: column;
+    float: left;
+    margin-top: 80px;
+    margin-left: 430px;
+    
+    
+    
+}
+
+.bcadastre_se h3{
+    color: #fff;
+    font-size: 18px;
+    font-weight: lighter;
+    font-family: var(--font) ;
+}
+
+
+.bcadastre_se p{
+    float: left;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 175px;
+    font-weight: lighter;
+
+}
+
+.bcadastre_se a{
+    width: 150px;
+    float: left;
+    text-align: center;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    background-color: var(--red);
+    padding: 0.4em 1em;
+    border-radius: 0.5em;
+    margin-top: 5px;
+    margin-left: 350px;
+}
+
+input{
+    background-color: rgba(255, 255, 255, 0.795);
+    float: left;
+    padding: 0.1em 1em;
+    margin-top: -35px;
+    margin-left: 110px;
+}
+.email{
+    width: 230px;
+    height: 36px;
+    border-radius: 10px;
+    font-family: var(--font);
+    font-size: 1em;
+    color: rgba(68, 67, 67, 0.226);
+    
+}
 
 @media screen and (max-width: 74.93em){
 
