@@ -41,6 +41,7 @@ img{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-direction: row;
 }
 .topo img{
     max-width: 21.18em;
@@ -357,8 +358,17 @@ img{
     margin-top: 1em;
 }
 /* página cadastro */
-
+/*até 1200px*/
 @media screen and (max-width: 75em){
+
+    .topo{
+      padding-top: 1em;
+      height: 7em;
+
+    }
+    .topo .flex-center-bt{
+        flex-direction: column;
+    }
     .topo img {
         max-width: 15.18em;
     }
@@ -373,32 +383,94 @@ img{
     .banner-text a {
         font-size: 1.25em;
     }
-    
+    .jogos .flex-center-bt img{
+        width: 100px;
+        
+    }
     .proximos-jogos h2{
         font-size: 1.56em;
     }
     
+    .flex-center-bt .wrap{
+        max-width: 580px;
+    }
+
+
+}
+/*Até 991px*/
+@media screen and (max-width: 61.9375em){
+
+    .banner-text h1{
+        font-size: 2.75em;
+    }
+
+    .banner-text p{
+        font-size: 0.90em;
+    }
+    
+    .banner-text a {
+        font-size: 1.25em;
+    }
+
+    .about-position h2{
+        font-size: 30px;
+    }
+    .about-position img{
+        max-width:300px;
+    }
+
+    .desktop_only{
+       display: none;
+    }
+
+    .proximos-jogos{
+        flex-direction: column;
+    }
+
+    .links-footer{
+        flex-direction: column;
+    }
+    
+    /*.logo-rodape{
+        flex-direction: column;
+        max-width: 200px;*/  
+
+    .newslatter input{
+       align-items: center;
+    }
 }
 
-@media screen and (max-width: 48em)/*767px*/{
-   /* .menu{
-        display: flex;*/
+
+/*Até 767px*/
+/*@media screen and(max-width: 48em){
+   .menu{
+    display: flex;
     }
-     /*.menu ul {
-         display: none;
-         width: 100%;
-         max-width: 100%;
-         height: 350px;
-         background-color: #000;
-         flex-direction: column;
-         position: absolute;
-         top:80px;
-         left: 0;
-         justify-content: space-around;
-         z-index: 99;*/
-   
 
-@media screen and (max-width: 35.93em){
+    /*.menu ul{
+        display: none;
+        width: 100%;
+        max-width: 100%;
+        height: 350px;
+        background-color: #000;
+        flex-direction: column;
+        position: absolute;
+        top:80px;
+        left:0;
+        justify-content: space-around;
+        z-index: 99;
+
+    }
+
+    /*.jogos-embreve{
+         display: flex;
+        flex-wrap: wrap;
+
+    }
+}*/
 
 
-}   
+@media screen and (max-width:35.93em){
+
+}
+
